@@ -6,5 +6,7 @@ Me he encargado de administrar el repositorio, añadir a los colaboradores, subi
 VALORACIÓN INTEGRANTE 2 (nombre, usuario GitHub):
 (escribe aquí tu valoración)
 
-VALORACIÓN INTEGRANTE 3 (nombre, usuario GitHub):
-(escribe aquí tu valoración)
+VALORACIÓN INTEGRANTE 3 (Adrián, usuario dominguezobreroadrian):
+Me he encargado de administrar el controlador de la siguiente manera:
+    - actualizar rutas que ya no existen
+    - cambiar conexión a la BBDD con datos proporcionados por el integrante 2
