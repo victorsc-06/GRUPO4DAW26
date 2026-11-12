@@ -2,9 +2,9 @@
  // web/index.php
 
  // carga del modelo y los controladores
-    require_once __DIR__ . './Config.php';
+    require_once __DIR__ . '/Config.php';
     require_once __DIR__ . '/../Model/Model.php';
-    require_once __DIR__ . './Controller.php';
+    require_once __DIR__ . '/Controller.php';
 
  // enrutamiento
     $map = array(
