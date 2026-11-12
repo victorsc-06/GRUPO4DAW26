@@ -1,0 +1,10 @@
+VALORACIONES DE LA PRÁCTICA - GRUPO 4 DAW26
+
+VALORACIÓN INTEGRANTE 1 (Víctor, usuario victorsc-06):
+Me he encargado de administrar el repositorio, añadir a los colaboradores, subir la vista y el front-end y recoger las valoraciones. Lo más difícil fue fusionar las ramas en main por el error "unrelated histories", que resolví con git merge --allow-unrelated-histories. He aprendido a trabajar con ramas que me ha parecido cómodo y a resolver conflictos en equipo.
+
+VALORACIÓN INTEGRANTE 2 (nombre, usuario GitHub):
+(escribe aquí tu valoración)
+
+VALORACIÓN INTEGRANTE 3 (nombre, usuario GitHub):
+(escribe aquí tu valoración)
