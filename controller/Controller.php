@@ -9,7 +9,7 @@ class Controller
             'mensaje' => 'Bienvenido al curso de symfony 1.4',
             'fecha' => date('d-m-Y'),
         );
-        require __DIR__ . '/templates/inicio.php';
+        require __DIR__ . '../view/templates/inicio.php';
     }
 
     public function listar()
@@ -21,7 +21,7 @@ class Controller
             'alimentos' => $m->dameAlimentos(),
         );
 
-        require __DIR__ . '/templates/mostrarAlimentos.php';
+        require __DIR__ . '../view/templates/mostrarAlimentos.php';
     }
         public function wiki()
     {
@@ -32,7 +32,7 @@ class Controller
             'alimentos' => $m->dameAlimentos(),
         );
 
-        require __DIR__ . '/templates/wikiAlimentos.php';
+        require __DIR__ . '../view/templates/wikiAlimentos.php';
     }
 
     public function insertar()
@@ -73,7 +73,7 @@ class Controller
             }
         }
 
-        require __DIR__ . '/templates/formInsertar.php';
+        require __DIR__ . '../view/templates/formInsertar.php';
     }
 
     public function buscarPorNombre()
@@ -91,7 +91,7 @@ class Controller
             $params['resultado'] = $m->buscarAlimentosPorNombre($_POST['nombre']);
         }
 
-        require __DIR__ . '/templates/buscarPorNombre.php';
+        require __DIR__ . '../view/templates/buscarPorNombre.php';
     }
         public function buscarPorEnergia()
     {
@@ -111,7 +111,7 @@ class Controller
                                 $params['mensaje']='No se han encontrado alimentos con la energía indicada';
         }
 
-        require __DIR__ . '/templates/buscarPorEnergia.php';
+        require __DIR__ . '../view/templates/buscarPorEnergia.php';
     }
 
         public function buscarAlimentosCombinada()
@@ -134,7 +134,7 @@ class Controller
                                 $params['mensaje']='No se han encontrado alimentos con la energía y nombre indicados';
         }
 
-        require __DIR__ . '/templates/buscarCombinada.php';
+        require __DIR__ . '../view/templates/buscarCombinada.php';
     }
 
 
@@ -153,7 +153,7 @@ class Controller
 
         $params = $alimento;
 
-        require __DIR__ . '/templates/verAlimento.php';
+        require __DIR__ . '../view/templates/verAlimento.php';
     }
 
 }
